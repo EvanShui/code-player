@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Code Player</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+	<div class="header"> 
+		<div class="title">
+			CodePlayer
+		</div>
+		<div class="button-bar">
+			<button id="html">HTML</button>
+			<button id="css">CSS</button>
+			<button id="js">JavaScript</button>
+			<button id="output">Output</button>
+		</div>
+	</div>
+	<div>
+		<textarea id="html-text" class="panel hidden"><p id="paragraph">Hello World!</p></textarea> 
+		<textarea id="css-text" class="panel hidden">p { color: green; }</textarea>
+		<textarea id="js-text" class="panel hidden">document.getElementById("paragraph").innerHTML = "Hello Rob!";</textarea>
+		<iframe id="output-text" class="panel hidden"></iframe>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+</html>
